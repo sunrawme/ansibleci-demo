@@ -2,5 +2,6 @@
 - name: Configure web servers
   hosts: webservers
   become: true
+
   roles:
     - nginx
